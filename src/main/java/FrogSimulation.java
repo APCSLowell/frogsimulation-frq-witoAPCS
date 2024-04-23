@@ -22,7 +22,7 @@ public class FrogSimulation
 		 position+= hopDistance();
 		 hops++; 
 		 if(hops > maxHops) return false;
-	         if(position < 0) return false; 
+	         else if(position < 0) return false; 
 		}
 		return true;
 	}
