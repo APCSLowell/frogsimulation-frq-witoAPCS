@@ -36,7 +36,7 @@ public class FrogSimulation
 		for(int i = 0; i <= num; i++){
 		if(simulate() == true) successful++;
 		}
-		return (double)successful/num;
+		return successful/num;
 	}
 	
 	
