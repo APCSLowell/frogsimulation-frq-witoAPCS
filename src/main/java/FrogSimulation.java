@@ -15,7 +15,7 @@ public class FrogSimulation
 	
 	public boolean simulate()
 	{ 
-		int position = 0;
+		int distance = 0;
 		int hops = 0; 
 		/* to be implemented in part (a) */
 		while( hops < maxHops){
